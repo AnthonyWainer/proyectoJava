@@ -10,3 +10,27 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/NetBeansProjects/nprimo/build/
+/NetBeansProjects/nprimo/nbproject/private/
+/NetBeansProjects/practica_1/build/
+/NetBeansProjects/practica_1/nbproject/private/
+/NetBeansProjects/primitos/build/
+/NetBeansProjects/primitos/nbproject/private/
+/NetBeansProjects/Scaner factorial/nbproject/private/
+/NetBeansProjects/Servidor2/nbproject/private/
+/NetBeansProjects/carrera hilos sin grafico/nbproject/private/
+/NetBeansProjects/ApplicationCaculadora/build/
+/NetBeansProjects/ApplicationCaculadora/dist/
+/NetBeansProjects/ApplicationCaculadora/nbproject/private/
+/NetBeansProjects/calculadora clase/build/
+/NetBeansProjects/calculadora clase/nbproject/private/
+/NetBeansProjects/numerosprimos/build/
+/NetBeansProjects/numerosprimos/dist/
+/NetBeansProjects/numerosprimos/nbproject/private/
+/NetBeansProjects/stream/build/
+/NetBeansProjects/stream/nbproject/private/
+/NetBeansProjects/Stream2/build/
+/NetBeansProjects/Stream2/nbproject/private/
+/NetBeansProjects/Tryc/build/
+/NetBeansProjects/Tryc/nbproject/private/
+/NetBeansProjects/Scaner factorial/build/

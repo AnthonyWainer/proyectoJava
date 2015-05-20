@@ -1,0 +1,12 @@
+eventProximity:2800
+azimuthDiff:120.0
+eventCorrelationTime:4.0
+pathCorrelationTime:2.0
+eventStreamPeriod:200
+showEvents:true
+showPairedEvents:true
+showAircraft:true
+showEventsDuration:8000
+showPairedEventsDuration:7000
+showAircraftDuration:2000
+imageRefreshPeriod:500
