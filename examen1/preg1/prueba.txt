@@ -1,0 +1,5 @@
+cantidad de numeros primos en 7
+numero primo 2 esta en la posicion 1
+numero primo 3 esta en la posicion 2
+numero primo 5 esta en la posicion 3
+numero primo 7 esta en la posicion 4
