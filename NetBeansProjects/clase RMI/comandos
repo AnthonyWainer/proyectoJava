@@ -1,0 +1,13 @@
+#para crear stub:
+rmic sermi.Implementacion
+
+#agregar manifest.txt lo sigt: Main-Class: ImpleRMI.class
+
+#para iniciar rmiregistry en el puerto 9056
+rmiregistry 9056 &
+
+#colocar sudo si pide permisos
+
+#crear el name.jar 
+jar cfm libsun.jar sermi/manifest.txt sermi/Interfas.class sermi/Implementacion.class sermi/Implementacion_Stub.class
+
