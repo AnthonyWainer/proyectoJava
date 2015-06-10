@@ -1,0 +1,3 @@
+idlj -fall suma.idl
+
+javac sumaimpl/*.java sumaApp/*.java
