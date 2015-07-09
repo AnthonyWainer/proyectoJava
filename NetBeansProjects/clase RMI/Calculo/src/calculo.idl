@@ -1,0 +1,12 @@
+module calc
+{
+interface calcula
+{
+double suma(in double a, in double b);
+double resta(in double c, in double d);
+double multi(in double r, in double f);
+double divi(in double g, in double h);
+oneway void shutdown();
+};
+};
+

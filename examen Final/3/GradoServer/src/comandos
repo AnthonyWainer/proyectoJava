@@ -1,0 +1,13 @@
+idlj -fall grado.idl
+
+javac gradoimpl/*.java gradoApp/*.java
+
+//iniciar puerto 
+orbd -ORBInitialPort 9090 &
+
+//inicializxar host
+java gradoimpl.ConversionServer -ORBInitialPort 9090 -ORBInitialHost 127.0.0.1
+
+//c0mpilar CLIENTE
+javac gradoimpl/Cliente.java
+

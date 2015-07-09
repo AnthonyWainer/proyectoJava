@@ -3,8 +3,11 @@ idlj -fall suma.idl
 javac sumaimpl/*.java sumaApp/*.java
 
 //iniciar puerto 
-
 orbd -ORBInitialPort 9090 &
 
 //inicializxar host
 java sumaimpl.SumaServer -ORBInitialPort 9090 -ORBInitialHost 127.0.0.1
+
+//c0mpilar CLIENTE
+javac sumaimpl/Cliente.java
+

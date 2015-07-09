@@ -6,7 +6,6 @@ import java.rmi.RemoteException;
 import java.util.Scanner;
 
 /**
- *
  * @author anthonywainer
  */
 public class Cliente {
@@ -18,8 +17,8 @@ public class Cliente {
         }
       public static void main(String[] args) throws RemoteException{
         try{
-        //Interfas i = (Interfas)Naming.lookup("//localhost:9050/sumita");
-        Interfas i = (Interfas)Naming.lookup("//192.168.4.53:9056/sumita");
+        Interfas i = (Interfas)Naming.lookup("//localhost:9050/sumita");
+        //Interfas i = (Interfas)Naming.lookup("//192.168.4.53:9056/sumita");
         Cliente cli= new Cliente();
         int a = cli.leer("Escribir el primer numero: ");
         int b = cli.leer("Escribir el segundo numero: ");

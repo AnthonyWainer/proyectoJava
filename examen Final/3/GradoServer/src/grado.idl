@@ -1,0 +1,6 @@
+module gradoApp{
+interface convGrad{
+double grados(in double g);
+oneway void shutdown();
+};
+};

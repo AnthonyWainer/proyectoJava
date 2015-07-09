@@ -1,0 +1,3 @@
+rmic practicarmi.Implementacion
+jar cfm pies.jar practicarmi/manifest.txt practicarmi/Interface.class practicarmi/Implementacion.class practicarmi/Implementacion_Stub.class
+rmiregistry 9050 &
